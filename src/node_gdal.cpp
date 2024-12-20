@@ -1805,4 +1805,4 @@ static void Init(Local<Object> target, Local<v8::Value>, void *) {
 
 } // namespace node_gdal
 
-NODE_MODULE_INIT(NODE_GYP_MODULE_NAME, node_gdal::Init);
+NODE_MODULE(NODE_GYP_MODULE_NAME, node_gdal::Init);
